@@ -1,0 +1,30 @@
+------------------------------------------------------------
+C:\Python34\lib\site-packages\pip\__main__.py run on 11/16/23 09:58:05
+Downloading/unpacking matplotlib
+  Getting page https://pypi.python.org/simple/matplotlib/
+  Could not fetch URL https://pypi.python.org/simple/matplotlib/: connection error: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /simple/matplotlib/ (Caused by <class 'socket.gaierror'>: [Errno 11001] getaddrinfo failed)
+  Will skip URL https://pypi.python.org/simple/matplotlib/ when looking for download links for matplotlib
+  Getting page https://pypi.python.org/simple/
+  Could not fetch URL https://pypi.python.org/simple/: connection error: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /simple/ (Caused by <class 'socket.gaierror'>: [Errno 11001] getaddrinfo failed)
+  Will skip URL https://pypi.python.org/simple/ when looking for download links for matplotlib
+  Cannot fetch index base URL https://pypi.python.org/simple/
+  URLs to search for versions for matplotlib:
+  * https://pypi.python.org/simple/matplotlib/
+  Getting page https://pypi.python.org/simple/matplotlib/
+  Could not fetch URL https://pypi.python.org/simple/matplotlib/: connection error: HTTPSConnectionPool(host='pypi.python.org', port=443): Max retries exceeded with url: /simple/matplotlib/ (Caused by <class 'socket.gaierror'>: [Errno 11001] getaddrinfo failed)
+  Will skip URL https://pypi.python.org/simple/matplotlib/ when looking for download links for matplotlib
+  Could not find any downloads that satisfy the requirement matplotlib
+Cleaning up...
+  Removing temporary dir C:\Users\37\AppData\Local\Temp\pip_build_37...
+No distributions at all found for matplotlib
+Exception information:
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\pip\basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "C:\Python34\lib\site-packages\pip\commands\install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "C:\Python34\lib\site-packages\pip\req.py", line 1177, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "C:\Python34\lib\site-packages\pip\index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+pip.exceptions.DistributionNotFound: No distributions at all found for matplotlib
